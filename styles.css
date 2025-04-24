@@ -1,0 +1,116 @@
+/* Estil del menú de navegació */
+.navbar {
+    background-color: #1f1b24; /* violeta molt fosc */
+    padding: 1rem 2rem;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar a {
+    color: #ffe66d; /* groc daurat */
+    text-decoration: none;
+    margin: 0 1rem;
+    transition: color 0.3s;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #ff6f91; /* rosa coral viu */
+}
+
+/* Estil del contingut principal */
+.landing-container {
+    background-color: #fdf6f0; /* blanc cremós amb to rosa */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+/* Estil de la capçalera */
+.header {
+    font-family: 'Caveat', cursive; /* lletra distintiva manuscrita */
+    color: #ff4e50; /* vermell rosat intens */
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Estil del subtítol */
+.product-subtitle {
+    font-size: 1.3rem;
+    color: #a2a8d3; /* blau lila clar */
+    margin-bottom: 1.5rem;
+}
+
+/* Estil de la imatge destacada */
+.hero-image {
+    max-width: 100%;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    position: relative;
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.4); /* ombra rosa forta */
+}
+
+/* Estil del text sobre la imatge */
+.hero-text {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    background-color: rgba(20, 20, 20, 0.75); /* negre translúcid */
+    color: #fdfdfd;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    backdrop-filter: blur(2px);
+}
+
+/* Estil de la descripció */
+.product-description {
+    font-size: 1rem;
+    color: #6c757d; /* gris suau amb to blavós */
+    margin-bottom: 1.5rem;
+    text-align: center;
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+/* Estil del botó de crida a l'acció */
+.cta-button {
+    background-color: #00c9a7; /* verd turquesa vibrant */
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(0, 201, 167, 0.4);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.cta-button:hover {
+    background-color: #007f74; /* verd marí més fosc */
+    transform: scale(1.05);
+}
+
+/* Estil del peu de pàgina */
+.main-footer {
+    background-color: #1c1c1c; /* negre suau */
+    padding: 1rem 2rem;
+    text-align: center;
+    color: #fff0f5; /* lavanda molt clar */
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.main-footer a {
+    color: #fcbf49; /* groc taronja */
+    text-decoration: none;
+    margin: 0 0.5rem;
+    transition: color 0.3s;
+}
+
+.main-footer a:hover {
+    color: #ff6f91; /* rosa coral viu */
+}
